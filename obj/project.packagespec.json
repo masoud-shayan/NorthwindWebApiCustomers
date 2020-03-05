@@ -1,0 +1,67 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\Alekhandr0\\Desktop\\dot-net-core\\PracticalApps\\NorthwindService\\NorthwindService.csproj",
+    "projectName": "NorthwindService",
+    "projectPath": "C:\\Users\\Alekhandr0\\Desktop\\dot-net-core\\PracticalApps\\NorthwindService\\NorthwindService.csproj",
+    "outputPath": "C:\\Users\\Alekhandr0\\Desktop\\dot-net-core\\PracticalApps\\NorthwindService\\obj\\",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp3.1"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "projectReferences": {
+          "C:\\Users\\Alekhandr0\\Desktop\\dot-net-core\\PracticalApps\\NorthwindContextLib\\NorthwindContextLib\\NorthwindContextLib.csproj": {
+            "projectPath": "C:\\Users\\Alekhandr0\\Desktop\\dot-net-core\\PracticalApps\\NorthwindContextLib\\NorthwindContextLib\\NorthwindContextLib.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp3.1": {
+      "dependencies": {
+        "Swashbuckle.AspNetCore.Swagger": {
+          "target": "Package",
+          "version": "[5.0.0, )"
+        },
+        "Swashbuckle.AspNetCore.SwaggerGen": {
+          "target": "Package",
+          "version": "[5.0.0, )"
+        },
+        "Swashbuckle.AspNetCore.SwaggerUI": {
+          "target": "Package",
+          "version": "[5.0.0, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true,
+      "frameworkReferences": {
+        "Microsoft.AspNetCore.App": {
+          "privateAssets": "none"
+        },
+        "Microsoft.NETCore.App": {
+          "privateAssets": "all"
+        }
+      },
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+    }
+  }
+}

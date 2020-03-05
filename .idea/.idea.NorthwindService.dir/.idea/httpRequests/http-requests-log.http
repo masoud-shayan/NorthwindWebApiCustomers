@@ -1,0 +1,101 @@
+﻿POST https://localhost:5001/api/customers/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "customerID": "ABCXY", "companyName": "ABC Corp", "contactName": "John Smith", "contactTitle": "Sir", "address": "Main Street", "city": "New York", "region": "NY", "postalCode": "90210", "country": "USA", "phone": "(123) 555-1234", "fax": null, "orders": null }
+
+<> ۲۰۲۰-۰۳-۰۴T۰۵۲۶۳۱.500.txt
+
+###
+
+POST https://localhost:5001/api/customers/
+Accept: */*
+Cache-Control: no-cache
+
+{ "customerID": "ABCXY", "companyName": "ABC Corp", "contactName": "John Smith", "contactTitle": "Sir", "address": "Main Street", "city": "New York", "region": "NY", "postalCode": "90210", "country": "USA", "phone": "(123) 555-1234", "fax": null, "orders": null }
+
+<> ۲۰۲۰-۰۳-۰۴T۰۵۲۵۰۰.415.json
+
+###
+
+GET https://localhost:5001/api/customers/?=&country=USA
+Accept: */*
+Cache-Control: no-cache
+
+<> ۲۰۲۰-۰۳-۰۴T۰۵۲۴۱۰.200.json
+
+###
+
+GET https://localhost:5001/api/customers/?=
+Accept: */*
+Cache-Control: no-cache
+
+<> ۲۰۲۰-۰۳-۰۴T۰۵۲۳۴۰.200.json
+
+###
+
+GET https://localhost:5001/api/customers/?=&country=Germany&country=USA&country=USA
+Accept: */*
+Cache-Control: no-cache
+
+<> ۲۰۲۰-۰۳-۰۴T۰۵۲۳۱۴.200.json
+
+###
+
+GET https://localhost:5001/api/customers/?=&country=Germany&country=USA&country=USA
+Accept: */*
+Cache-Control: no-cache
+
+<> ۲۰۲۰-۰۳-۰۴T۰۵۲۳۰۹.200.json
+
+###
+
+GET https://localhost:5001/api/customers/?=&country=Germany&country=USA&country=USA
+Accept: */*
+Cache-Control: no-cache
+
+<> ۲۰۲۰-۰۳-۰۴T۰۵۲۲۲۵.200.json
+
+###
+
+GET https://localhost:5001/api/customers/?=&country=Germany&country=USA
+Accept: */*
+Cache-Control: no-cache
+
+<> ۲۰۲۰-۰۳-۰۴T۰۵۲۱۵۳.200.json
+
+###
+
+GET https://localhost:5001/api/customers/?=&country=Germany
+Accept: */*
+Cache-Control: no-cache
+
+<> ۲۰۲۰-۰۳-۰۴T۰۵۲۱۳۹.200.json
+
+###
+
+GET https://localhost:5001/api/customers/alfki?=
+Accept: */*
+Cache-Control: no-cache
+
+<> ۲۰۲۰-۰۳-۰۴T۰۵۲۰۳۲.200.json
+
+###
+
+GET https://localhost:5001/api/customers/alfk?=
+Accept: */*
+Cache-Control: no-cache
+
+<> ۲۰۲۰-۰۳-۰۴T۰۵۲۰۲۲.404.json
+
+###
+
+GET https://localhost:5001/api/customers/?=
+Accept: */*
+Cache-Control: no-cache
+
+<> ۲۰۲۰-۰۳-۰۴T۰۵۱۹۱۷.200.json
+
+###
+
